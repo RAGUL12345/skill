@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color:rgb(148, 26, 42);
+  color:#03fcfc;
+  padding: 20px;
+  text-align: center;
+}
+.navi {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navi a {
+  float: left;
+  display: block;
+  color: white;
+  border:1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi a:hover {
+  background-color: white;
+  color: black;
+}
+.column {
+  border: 2px solid white;
+  border-radius: 25px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.column1 {
+  border: 2px solid rgb(148, 26, 42);
+  border-radius: 25px;
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gridmain {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(148, 26, 42);
+    padding: 5px;
+  }
+  .gridtext {
+    background-color: white;
+    color:rgb(148, 26, 42);
+    border: 1px solid rgba(12, 12, 12, 0.8);
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+  }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(148, 26, 42);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.footer{  
+background-color:black;
+color:white;
+    display: flex;
+}
+.footer2{
+  
+    margin-left:1400px;
+}
+
+
+
+
